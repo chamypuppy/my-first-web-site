@@ -1,0 +1,126 @@
+/** 폰트어썸 **/
+@import url('http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+body{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight:500;
+  text-align: center;
+  margin: 0;
+
+}
+
+/** gnb 페이지 **/
+
+.gnb {
+    display: inline-block;
+    border-bottom: 2px dotted rgb(175, 175, 175);
+    padding: 20px;
+    padding-top: 100px;
+}
+.gnb span.mypage-icon {
+  position: relative;
+ /**border: 1px solid red;**/
+}
+
+.gnb span.mypage-icon i {
+  /**border: 1px solid red;**/
+  margin-top: 1px;
+  color: lightgray;
+  position: absolute;
+  top:100%;
+  left:65%;
+
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.gnb a {
+  font-size: 13px;
+  font-weight: bold;
+  margin-right:8px;
+}
+
+.gnb img {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/** nav 페이지 **/
+
+.nav {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.nav a {
+  font-size: 15px;
+  font-weight: 600;
+  margin:18px;
+  font-style: italic;
+}
+
+#pink {
+  color: rgb(255, 152, 169);
+}
+
+#hide {
+  display: none;
+}
+
+/* table 페이지 */
+.notice-table {
+  margin-top: 75px;
+}
+
+table {
+  width: 60%;
+  margin: auto;
+
+}
+
+
+
+
+/** footer 페이지 **/
+
+.footer {
+  margin-top: 24px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 11px;
+}
+
+.footer a {
+  color: gray;
+  border-right: 1px solid lightgray;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#delete {
+  border-right: none;
+}
+
+/** footer address 페이지 **/
+
+.footer-address {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-top: 60px;
+  color: gray;
+  font-size: 9px;
+
+}
+
+.footer-address-parent{
+
+}
+
+.footer-address-child {
+  height: inherit;
+  vertical-align: middle;
+  margin-left: 4px;
+}
