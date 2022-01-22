@@ -1,6 +1,6 @@
 /** 폰트어썸 **/
 @import url('http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap');
 
 body{
   font-family: 'Cormorant Garamond', serif;
@@ -75,14 +75,64 @@ a {
 /* table 페이지 */
 .notice-table {
   margin-top: 75px;
+  
 }
 
 table {
   width: 60%;
   margin: auto;
-
+  font-family: 'Noto Sans KR', sans-serif;
+  
+  font-size: 13px;
+  color: rgb(139, 139, 139);
+  /* border-collapse:seperate; */
+  border-spacing :0;
 }
 
+
+thead {
+  background-color: rgb(233, 233, 233);
+  color: rgb(133, 133, 133);
+  font-size: 13px;
+}
+
+
+thead th {
+  border-spacing :2px;
+  border-left: 2px solid white;
+  padding: 3px;
+}
+
+#number-table {
+  border-left: none;
+}
+
+.notice-font {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+table a {
+  color: rgb(126, 126, 126);
+  float: left;
+  padding-left: 10px;
+  
+}
+
+table td {
+  border-bottom: 1px solid rgb(167, 167, 167);
+  margin: 0;
+  padding: 2px;
+  border-spacing :0;
+  padding-bottom: 6px;
+}
+
+
+.border-none {
+  border-bottom: none;
+}
 
 
 
